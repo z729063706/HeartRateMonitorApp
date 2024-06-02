@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Android",
+        "program": "${workspaceFolder}/.vscode/launchReactNative.js",
+        "type": "reactnative",
+        "request": "launch",
+        "platform": "android",
+        "sourceMaps": true,
+        "outDir": "${workspaceRoot}/.vscode/.react"
+      },
+      {
+        "name": "Attach to packager",
+        "type": "reactnative",
+        "request": "attach",
+        "port": 8081,
+        "sourceMaps": true,
+        "outDir": "${workspaceRoot}/.vscode/.react"
+      }
+    ]
+  }
+  
